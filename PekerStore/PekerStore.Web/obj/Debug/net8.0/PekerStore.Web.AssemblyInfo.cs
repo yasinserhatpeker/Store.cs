@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PekerStore.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+520426ebac585e27638b73aa31f6d3a907934350")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a26e742aaca99ee5bce5274d7f531f8c6355392c")]
 [assembly: System.Reflection.AssemblyProductAttribute("PekerStore.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PekerStore.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

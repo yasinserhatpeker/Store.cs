@@ -60,3 +60,4 @@ ScaffoldingReadMe.txt
 
 # Mac files
 .DS_Store
+obj/
