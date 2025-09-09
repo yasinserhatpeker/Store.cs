@@ -10,3 +10,7 @@
         <p>@product.Category</p>
     </div>
 }
+
+@for(var i=1; i<= Model.PageInfo.TotalPages;i++) {
+     <a href="/?page=@i">@i</a>
+}
