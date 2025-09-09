@@ -3,7 +3,7 @@ namespace PekerStore.Data.Abstract;
 
 public interface IStoreRepository
 {
-    IQueryable<Product> products { get; }
+    IQueryable<Product> Products { get; }
     
     void CreateProduct(Product product);
 }
