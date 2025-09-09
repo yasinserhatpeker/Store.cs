@@ -19,10 +19,10 @@ public class StoreDbContext : DbContext
             new List<Product>()
             {
                 new() {Id=1 , Name="Crime and Punishment", Price=10, Description="Dostoyevski Book",Category="Novel"},
-                new() {Id=1 , Name="Anna Karenina", Price=20, Description="Tolstoy Book",Category="Novel"},
-                new() {Id=1 , Name="The Double", Price=10, Description="Dostoyevski Book",Category="Novel"},
-                new() {Id=1 , Name="Game of Thrones", Price=30, Description="GRM Book",Category="Fantastic"},
-                new() {Id=1 , Name="Küçük Ağa", Price=40, Description="Tarık Buğra Book",Category="Novel"}
+                new() {Id=2 , Name="Anna Karenina", Price=20, Description="Tolstoy Book",Category="Novel"},
+                new() {Id=3 , Name="The Double", Price=10, Description="Dostoyevski Book",Category="Novel"},
+                new() {Id=4 , Name="Game of Thrones", Price=30, Description="GRM Book",Category="Fantastic"},
+                new() {Id=5 , Name="Küçük Ağa", Price=40, Description="Tarık Buğra Book",Category="Novel"}
 
             }
         );
