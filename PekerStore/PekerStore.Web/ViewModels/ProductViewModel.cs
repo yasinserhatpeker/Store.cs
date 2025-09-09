@@ -7,6 +7,8 @@ namespace PekerStore.Web.ViewModels
         public string Description { get; set; } = string.Empty;
         public decimal Price { get; set; }
         public string Category { get; set; } = string.Empty;
+
+        public PageInfo PageInfo { get; set; } = new();
     }
 
     public class ProductListViewModel
