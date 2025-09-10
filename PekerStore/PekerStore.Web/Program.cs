@@ -5,6 +5,7 @@ using PekerStore.Data.Concrete;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
+
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<StoreDbContext>(options =>
 {
@@ -12,6 +13,7 @@ builder.Services.AddDbContext<StoreDbContext>(options =>
 });
 
 builder.Services.AddScoped<IStoreRepository, EfCoreRepository>();
+
 
 
 var app = builder.Build();
