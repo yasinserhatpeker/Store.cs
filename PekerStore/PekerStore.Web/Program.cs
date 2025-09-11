@@ -18,6 +18,6 @@ builder.Services.AddScoped<IStoreRepository, EfCoreRepository>();
 
 var app = builder.Build();
 
-app.UseStaticFiles();
+app.UseStaticFiles(); 
 app.MapDefaultControllerRoute();
 app.Run();

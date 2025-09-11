@@ -1,14 +1,34 @@
 @model ProductListViewModel
 
-
-@foreach (var product in Model.Products)
-{
-    <div>
-        <h4>@product.Name</h4>
-        <p>@product.Description</p>
-        <p>@product.Price</p>
-        <p>@product.Category</p>
+<div class="row">
+    <div class="col-md-3">
+        Categories
     </div>
-}
+    <div class="col-md-9">
+        @if(Model.Products.Count() ==0) 
+        {
+            <p>There's no product</p>
+        }
+        @foreach(var product in @Model.Products)
+        {
+         <div class="card card-outline-secondary mb-2 p-2">
+            <div class="d-flex justify-content-between">
+                <div>
+                  <h4>@product.Name</h4>
+                  <p>@product.Description</p>
+                </div>
+                <div>
+                    <span class="badge rounded-pill text-bg-success ">$@product.Price</span>
+                </div>
+            </div>
+         </div>
+        }
+
+    </div>
+</div>
+
+
+
+
 
 <div page-model="@Model.PageInfo" page-action="Index"></div>
